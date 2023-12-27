@@ -1,0 +1,33 @@
+.footer {
+    padding: 40px 0 50px;
+    background-color: #333333;
+    font-size: 16px;
+
+    /* Tablet Big */
+    @media (max-width: 1139px) {
+       padding: 30px 0;
+    }
+}
+
+.footer__copyright {
+    margin-bottom: 10px;
+    color: #FFF;
+    line-height: 1.4;
+}
+
+.footer__description {
+    color: #B0B0B0;
+    line-height: 1.5;
+
+    /* Tablet Big */
+    @media (max-width: 1139px) {
+       font-size: 14px;
+    }
+
+    /* Tablet Small */
+    @media (max-width: 899px) {
+        p + p {
+            margin-top: 15px;
+        }
+    }
+}
